@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "env": "env"
+    "env": "env",
+    "format": "prettier --trailing-comma es5 --single-quote --write 'packages/*/*.js' 'packages/*/!(node_modules)/**/*.js'",
+    "precommit": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -29,7 +31,18 @@
   },
   "homepage": "https://github.com/photusenigma/multi-repo-multi-project-v2#readme",
   "devDependencies": {
-    "git-subtree": "git+https://github.com/photusenigma/git-subtree.git"
+    "eslint": "^4.1.1",
+    "eslint-plugin-prettier": "^2.1.2",
+    "git-subtree": "git+https://github.com/photusenigma/git-subtree.git",
+    "husky": "^0.14.1",
+    "lint-staged": "^4.0.0",
+    "prettier": "^1.5.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "lint-staged": {
+    "*.js": [
+      "prettier --trailing-comma es5 --single-quote --write",
+      "git add"
+    ]
+  }
 }
