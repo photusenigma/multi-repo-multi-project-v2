@@ -28,3 +28,7 @@ gitsbt
 If you have need for more advanced usage, please read instructions in the readme which can be found here - [git-subtree on github](https://github.com/photusenigma/git-subtree).
     
 Configuration for this project's git subtrees is located at the project root in the file _subtrees.json_.
+
+
+## Formatting code is run through 'prettier' on a pre-commit hook
+We're using the npm package [prettier](https://github.com/prettier/prettier) to reformat code to match formatting rules as part of a pre-commit hook.  This means the actual committed code may appear formatted differently.  See the readme doc at the linke to prettier above if you wish to have it not auto format on commit and instead throw errors or stop commit for you to review changes first.
