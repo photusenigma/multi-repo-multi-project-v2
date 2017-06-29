@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/photusenigma/multi-repo-multi-project-v2-app/issues"
   },
-  "homepage": "https://github.com/photusenigma/multi-repo-multi-project-v2-app#readme"
+  "homepage": "https://github.com/photusenigma/multi-repo-multi-project-v2-app#readme",
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-plugin-prettier": "^2.1.2",
+    "husky": "^0.14.1",
+    "lint-staged": "^4.0.0",
+    "prettier": "^1.5.2"
+  },
+  "dependencies": {},
+  "lint-staged": {
+    "*.js": [
+      "prettier --trailing-comma es5 --single-quote --write",
+      "git add"
+    ]
+  }
 }
