@@ -6,7 +6,7 @@
   }, 
   "common-components": {
     "localFolder": "packages/common-components",
-    "repository": "https://github.com/photusenigma/lerna-multi-repo-lib-common-components.git",
+    "repository": "https://github.com/photusenigma/multi-repo-multi-project-v2-common-components.git",
     "branch":"master"
   }
 }
