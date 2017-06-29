@@ -1,0 +1,31 @@
+{
+  "name": "multi-repo-multi-project-v2",
+  "version": "0.0.1",
+  "description": "Example of managing a front-end app made up of multiple projects which are distributed across multiple git repos",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "env": "env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/photusenigma/multi-repo-multi-project-v2.git"
+  },
+  "keywords": [
+    "lerna",
+    "npm",
+    "dependency",
+    "bundle",
+    "build",
+    "front-end",
+    "architecture",
+    "distributed",
+    "solution"
+  ],
+  "author": "David Colwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/photusenigma/multi-repo-multi-project-v2/issues"
+  },
+  "homepage": "https://github.com/photusenigma/multi-repo-multi-project-v2#readme"
+}
