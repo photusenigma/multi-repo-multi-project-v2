@@ -1,0 +1,12 @@
+{
+  "app": {
+    "localFolder": "packages/app",
+    "repository": "https://github.com/photusenigma/multi-repo-multi-project-v2-app.git",
+    "branch": "master"
+  }, 
+  "common-components": {
+    "localFolder": "packages/common-components",
+    "repository": "https://github.com/photusenigma/lerna-multi-repo-lib-common-components.git",
+    "branch":"master"
+  }
+}

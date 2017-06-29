@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/photusenigma/multi-repo-multi-project-v2/issues"
   },
-  "homepage": "https://github.com/photusenigma/multi-repo-multi-project-v2#readme"
+  "homepage": "https://github.com/photusenigma/multi-repo-multi-project-v2#readme",
+  "devDependencies": {
+    "git-subtree": "git+https://github.com/photusenigma/git-subtree.git"
+  },
+  "dependencies": {}
 }
