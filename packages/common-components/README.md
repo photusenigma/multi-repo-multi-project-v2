@@ -1,0 +1,2 @@
+# Multi-Repo Multi-Project: v2 - Common Components
+This is a project for a collection of common components which will become part of a larger managed solution with mutliple repos, multiple projects, and shared and cross project dependencies.
