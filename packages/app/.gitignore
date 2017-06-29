@@ -1,0 +1,14 @@
+node_modules
+*.log
+.idea
+.vscode/
+npm-shrinkwrap.json
+dist
+.tern-port
+*.DS_Store
+.cache
+junit.xml
+coverage/
+yarn.lock
+/**/LICENSE
+docs/public
