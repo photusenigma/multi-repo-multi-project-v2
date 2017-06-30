@@ -8,7 +8,7 @@ console.log(str1);
 console.log(srt2);
 
 
-const names = ['React', 'Angular', 'GraphQL', 'Redux'];
+const names = ['React', 'Angular', 'GraphQL (Apollo)', 'Redux-Saga'];
 const count = 100;
 const myFun = (name1, name2, count) => `Wrote ${count} lines with ${name1}, and ${Math.floor(count/2)} with ${name2}`
 const getRandomNumFromZeroTo = (num) => Math.floor(Math.random() * num)
