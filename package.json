@@ -8,7 +8,13 @@
     "format": "prettier --trailing-comma es5 --single-quote --write 'packages/*/*.js' 'packages/*/!(node_modules)/**/*.js'",
     "precommit": "lint-staged",
     "test": "test",
+    "install:git-submodule": "npm install -g git-submodule",
+    "install:lerna-wizard": "npm install -g lerna-wizard",
     "lerna-wizard": "lerna-wizard"
+  },
+  "bin": {
+    "gitsbt": "bin/gitsbt",
+    "lerna-wizard": "bin/lerna-wizard"
   },
   "repository": {
     "type": "git",
@@ -47,5 +53,8 @@
       "prettier --trailing-comma es5 --single-quote --write",
       "git add"
     ]
+  },
+  "dependencies": {
+    "npm-run": "^4.1.2"
   }
 }
