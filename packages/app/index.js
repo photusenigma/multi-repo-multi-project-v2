@@ -6,3 +6,19 @@ const srt2 = () => {
 
 console.log(str1);
 console.log(srt2);
+
+
+const names = ['React', 'Angular', 'GraphQL', 'Redux'];
+const count = 100;
+const myFun = (name1, name2, count) => `Wrote ${count} lines with ${name1}, and ${Math.floor(count/2)} with ${name2}`
+const getRandomNumFromZeroTo = (num) => Math.floor(Math.random() * num)
+
+let myCount = count;
+let namesLen = names.length;
+while(myCount){
+  const name1 = names[getRandomNumFromZeroTo(namesLen)]
+  const name2 = names[getRandomNumFromZeroTo(namesLen)]
+  const myNames = [name1, name2];
+  console.log(myFun(...myNames, myCount));
+  myCount--;
+}
