@@ -1,5 +1,5 @@
 {
-  "name": "multi-repo-multi-project-v2-common-components",
+  "name": "@mrmpv2/multi-repo-multi-project-v2-common-components",
   "version": "0.0.1",
   "description": "A project for a collection of common-components which will become part of a larger managed solutions with mutliple repos, multiple projects, and shared and cross project dependencies.",
   "main": "index.js",

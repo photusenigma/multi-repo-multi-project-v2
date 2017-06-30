@@ -1,5 +1,5 @@
 {
-  "name": "multi-repo-multi-project-v2-app",
+  "name": "@mrmpv2/multi-repo-multi-project-v2-app",
   "version": "0.0.1",
   "description": "An app project that will become part of a larger managed solutions with mutliple repos, multiple projects, and shared and cross project dependencies.",
   "main": "index.js",
@@ -23,7 +23,9 @@
     "lint-staged": "^4.0.0",
     "prettier": "^1.5.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@mrmpv2/multi-repo-multi-project-v2-common-components": "^0.0.1"
+  },
   "lint-staged": {
     "*.js": [
       "prettier --trailing-comma es5 --single-quote --write",
