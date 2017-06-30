@@ -4,10 +4,11 @@
   "description": "Example of managing a front-end app made up of multiple projects which are distributed across multiple git repos",
   "main": "index.js",
   "scripts": {
-    "test": "test",
     "env": "env",
     "format": "prettier --trailing-comma es5 --single-quote --write 'packages/*/*.js' 'packages/*/!(node_modules)/**/*.js'",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "test": "test",
+    "lerna-wizard": "lerna-wizard"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
     "husky": "^0.14.1",
     "lerna": "^2.0.0-rc.5",
     "lerna-changelog": "^0.2.3",
+    "lerna-wizard": "^1.0.9",
     "lint-staged": "^4.0.0",
     "prettier": "^1.5.2"
   },
