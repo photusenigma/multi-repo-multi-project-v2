@@ -1,6 +1,6 @@
 {
   "name": "@mrmpv2/multi-repo-multi-project-v2-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An app project that will become part of a larger managed solutions with mutliple repos, multiple projects, and shared and cross project dependencies.",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "prettier": "^1.5.2"
   },
   "dependencies": {
-    "@mrmpv2/multi-repo-multi-project-v2-common-components": "^0.0.1"
+    "@mrmpv2/multi-repo-multi-project-v2-common-components": "^0.0.2"
   },
   "lint-staged": {
     "*.js": [
