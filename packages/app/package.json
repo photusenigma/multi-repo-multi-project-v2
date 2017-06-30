@@ -1,6 +1,6 @@
 {
   "name": "@multi-multi-lerna-subtrees/multi-repo-multi-project-v2-app",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "An app project that will become part of a larger managed solutions with mutliple repos, multiple projects, and shared and cross project dependencies.",
   "main": "index.js",
   "scripts": {
