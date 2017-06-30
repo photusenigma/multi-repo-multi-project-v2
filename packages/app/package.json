@@ -1,6 +1,6 @@
 {
   "name": "@mrmpv2/multi-repo-multi-project-v2-app",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An app project that will become part of a larger managed solutions with mutliple repos, multiple projects, and shared and cross project dependencies.",
   "main": "index.js",
   "scripts": {
