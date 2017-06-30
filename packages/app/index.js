@@ -1,4 +1,5 @@
 const moduleName = "App";
+const teamName = "Ryan";
 
 const str1 =
   'this is the app project from repo: https://github.com/photusenigma/multi-repo-multi-project-v2-app';
