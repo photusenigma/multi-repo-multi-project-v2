@@ -1,1 +1,1 @@
-console.log("this is the common-component library").
+console.log("this is the common-component library");
