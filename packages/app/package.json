@@ -1,5 +1,5 @@
 {
-  "name": "@mrmpv2/multi-repo-multi-project-v2-app",
+  "name": "@multi-multi-lerna-subtrees/multi-repo-multi-project-v2-app",
   "version": "0.0.3",
   "description": "An app project that will become part of a larger managed solutions with mutliple repos, multiple projects, and shared and cross project dependencies.",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/photusenigma/multi-repo-multi-project-v2-app.git"
   },
-  "author": "",
+  "author": "David Colwell <dcdigital72+dev@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/photusenigma/multi-repo-multi-project-v2-app/issues"
@@ -24,7 +24,7 @@
     "prettier": "^1.5.2"
   },
   "dependencies": {
-    "@mrmpv2/multi-repo-multi-project-v2-common-components": "^0.0.2"
+    "@multi-multi-lerna-subtrees/multi-repo-multi-project-v2-common-components": "^0.0.3"
   },
   "lint-staged": {
     "*.js": [
