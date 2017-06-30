@@ -35,10 +35,11 @@
     "eslint-plugin-prettier": "^2.1.2",
     "git-subtree": "git+https://github.com/photusenigma/git-subtree.git",
     "husky": "^0.14.1",
+    "lerna": "^2.0.0-rc.5",
+    "lerna-changelog": "^0.2.3",
     "lint-staged": "^4.0.0",
     "prettier": "^1.5.2"
   },
-  "dependencies": {},
   "lint-staged": {
     "*.js": [
       "prettier --trailing-comma es5 --single-quote --write",
