@@ -1,6 +1,6 @@
 {
   "name": "@multi-multi-lerna-subtrees/multi-repo-multi-project-v2-app",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "An app project that will become part of a larger managed solutions with mutliple repos, multiple projects, and shared and cross project dependencies.",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "prettier": "^1.5.2"
   },
   "dependencies": {
+    "@multi-multi-lerna-subtrees/multi-repo-multi-project-v2-build-n-bundle": "^0.0.7",
     "@multi-multi-lerna-subtrees/multi-repo-multi-project-v2-common-components": "^0.0.9"
   },
   "lint-staged": {
