@@ -1,0 +1,19 @@
+{
+  "name": "@multi-multi-lerna-subtrees/multi-repo-multi-project-v2-build-n-bundle",
+  "version": "0.0.6",
+  "description": "A project for a collection of build-n-bundle which will become part of a larger managed solutions with mutliple repos, multiple projects, and shared and cross project dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/photusenigma/multi-repo-multi-project-v2-build-n-bundle.git"
+  },
+  "author": "David Colwell <dcdigital72+dev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/photusenigma/multi-repo-multi-project-v2-build-n-bundle/issues"
+  },
+  "homepage": "https://github.com/photusenigma/multi-repo-multi-project-v2-build-n-bundle#readme"
+}

@@ -1,0 +1,2 @@
+# Multi-Repo Multi-Project: v2 - Bundle and Build project
+This is a project for managing a centralized bundle and build process.  This project is part of a larger managed solution with mutliple repos, multiple projects, and shared and cross project dependencies.
