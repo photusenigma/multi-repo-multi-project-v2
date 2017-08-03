@@ -8,10 +8,5 @@
     "localFolder": "packages/common-components",
     "repository": "https://github.com/photusenigma/multi-repo-multi-project-v2-common-components.git",
     "branch":"master"
-  },
-  "bundle-n-build":{
-    "localFolder": "packages/bundle-n-build",
-    "repository": "https://github.com/photusenigma/multi-repo-multi-project-v2-build-n-bundle.git",
-    "branch":"master"
   }
 }
