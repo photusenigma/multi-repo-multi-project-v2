@@ -17,7 +17,7 @@ npm run test
 
 
 
-## Working with git subtrees
+## Working with code distributed across git repos - git subtrees
 We leverage the npm package [git-subtree](https://github.com/photusenigma/git-subtree) for managing our subtrees.  _Note We're actually using`a customized version located at my fork until a PR gets merged._
     
 To get a list of available commands, simply run the following on the commandline:
@@ -50,8 +50,10 @@ To https://github.com/photusenigma/multi-repo-multi-project-v2-app.git
    b67c67c..0c89034  0c890349dae3527279184063aa50bf2cc75862e0 -> master
 ```
 
+## Lerna - A solution for working with multiple and interdependent npm projects in a centrally managaged manner
+We'll be leveraging [Lerna](https://lernajs.io/) to manage multiple npm projects as if they are part of one larger solution, and to manage the versioning updates and related interdependencies across projects we work in.  It's a truly great solution...provided you can work in the way it needs in order to do it's job.
 
-
+Check out a quick overview at the [Lerna](https://lernajs.io/).  For more detailed guidance read the [Lerna GitHub repo README]9https://github.com/lerna/lerna#readme)
 
 ## a pre-commit hook auto-formats code
 We're using the npm package [prettier](https://github.com/prettier/prettier) to reformat code to match formatting rules as part of a pre-commit hook.  This means the actual committed code may appear formatted differently.  See the readme doc at the linke to prettier above if you wish to have it not auto format on commit and instead throw errors or stop commit for you to review changes first.
